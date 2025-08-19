@@ -53,13 +53,10 @@ This project implements a **simple agentic AI system** in Python for task manage
 
 ## **Customization**
 - **Change Groq Model**: Modify the `model` parameter in `agent_base.py` (e.g., `"llama3-70b-8192"` or other **Groq models**).
-- **Adjust Scoring**: Update the fallback prioritization logic in `prioritize_tasks` (currently **60% urgency**, **40% importance**).
-- **Add Tasks**: Extend the example in `if __name__ == "__main__":` to include your tasks.
-- **LLM Prompts**: Customize the prompts in `_call_llm` for different prioritization or reflection styles.
 
 ## **Notes**
-- If no **Groq API key** is provided, the agent uses a simple weighted scoring system.
 - The system is designed to be **lightweight** and **extensible** for other agentic use cases.
+- The system is not using any agentic frameworks. It is in plain python.
 - **Rendering Markdown**: To see bold and larger fonts, view this README in a markdown-supported environment like **GitHub**, **VS Code** (with markdown preview), or a markdown renderer. Plain text editors (e.g., Notepad) will show raw markdown (e.g., `**` or `#`) without formatting.
 
 ## **License**
