@@ -12,7 +12,7 @@ load_dotenv()
 
 def main():
     st.set_page_config(page_title="Multi-Agent AI System", layout="wide")
-    st.title("Multi-Agent AI System with Collaboration and Validation")
+    st.title("Multi-Agent AI System with Validation")
 
     st.sidebar.title("Select Task")
     task = st.sidebar.selectbox("Choose a task:", [
